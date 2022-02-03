@@ -9,6 +9,7 @@ const FeedbackStats = () => {
     }, 0) / feedback.length
 
   average = average.toFixed(1).replace(/[.,]0$/, "")
+  //console.log(feedback)
   return (
     <div className="feedback-stats">
       <h4>
